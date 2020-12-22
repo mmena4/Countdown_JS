@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="//db.onlinewebfonts.com/c/11d6740b4b9fa37c5cb1c5dbae8b716c?family=Neutra+Text" rel="stylesheet" type="text/css"/>
+       <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>JS Chronometer</title>
+        
+    </head>
+    <body>
+        <header class="header">
+            <img src="img/js.png">
+            <h1>Chronometer</h1>
+        </header>
+
+
+        <section class="container">
+
+            <div class="chrono">
+                <span id="chronometer" class="counter">0.00</span>
+            </div>
+
+
+            <section class="chronometerButtons">
+                <button type="button" class="startButton" id="startButton">Start/Stop</button>
+                <button type="button" class="resetButton" id="resetButton">Reset</button>
+                <button type="button" class="recButton" id="recButton">REC</button>
+            </section>
+
+            <div>
+                <h5>Recorded Times</h5>
+                <div id="storeTimes">
+                </div>
+            </div>
+
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>

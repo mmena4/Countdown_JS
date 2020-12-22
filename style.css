@@ -1,0 +1,183 @@
+@import url(//db.onlinewebfonts.com/c/11d6740b4b9fa37c5cb1c5dbae8b716c?family=Neutra+Text);
+
+@font-face {font-family: "Neutra Text"; src: url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.eot"); src: url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.woff") format("woff"), url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/11d6740b4b9fa37c5cb1c5dbae8b716c.svg#Neutra Text") format("svg"); }
+
+* {
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration-color: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Neutra Text;
+  
+}
+
+
+/*****HEADER****/
+.header {
+    display: flex;
+    font-size: 25px;  
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    color: #323330;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 0px 20px;
+}
+
+/****CHRONOMETER CONTAINER****/
+/*
+.container {  
+    
+}
+*/
+
+.chrono {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    display: flex; 
+    justify-content: center;
+    height: 75px;
+    width: 200px;
+    margin: 40px 0px 30px 0px;
+    background-color:  #F0DB4F;
+    border-radius: 5px;
+    font-size: 50px;
+    color: #323330;   
+}
+
+
+
+.check {
+
+}
+
+/******CHRONOMETER BUTTONS*****/
+
+.chronometerButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.startButton {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    background-color:  #F0DB4F;
+    border-radius: 5px;
+    font-size: larger;
+    color: #323330;
+    box-shadow: 2px 2px 3px 0px #323330;
+}
+
+.resetButton {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    background-color:  #F0DB4F;
+    border-radius: 5px;
+    font-size: larger;
+    color: #323330;
+    box-shadow: 2px 2px 3px 0px #323330;
+}
+
+.recButton {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    background-color:  #F0DB4F;
+    border-radius: 5px;
+    font-size: larger;
+    color: #323330;
+    box-shadow: 2px 2px 3px 0px #323330;
+}
+
+/********HOVER BUTTONS******/
+
+
+button:hover {
+    display: flex;
+    
+    width: 110px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    background-color: #323330;
+    border-radius: 5px;
+    font-size: larger;
+    color: #F0DB4F;
+    box-shadow: 2px 2px 3px 0px #F0DB4F;
+}
+
+/*****STORE TIMES ¿?*******/
+
+#storeTimes {
+
+}
+
+
+
+/*******RESPONSIVE*****************/
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+      
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 9px;  
+        padding: 5px;
+
+        color: #323330;
+    }
+    
+    img {
+        width: 100px;
+        height: auto;
+        margin: 0px 0px;
+    }
+
+    .counter {
+        display: flex; 
+        justify-content: center;
+        height: 50px;
+        width: 115px;
+        margin: 10px 0px 15px 0px;
+        background-color:  #F0DB4F;
+        border-radius: 5px;
+        font-size: 30px;
+        color: #323330;   
+    }
+
+    .chronometerButtons {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+}
+
+
+
