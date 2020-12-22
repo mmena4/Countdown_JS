@@ -11,9 +11,7 @@
     outline: none;
     background: transparent;
     font-family: Neutra Text;
-  
 }
-
 
 /*****HEADER****/
 .header {
@@ -32,12 +30,6 @@ img {
 }
 
 /****CHRONOMETER CONTAINER****/
-/*
-.container {  
-    
-}
-*/
-
 .chrono {
     display: flex;
     justify-content: center;
@@ -55,14 +47,7 @@ img {
     color: #323330;   
 }
 
-
-
-.check {
-
-}
-
 /******CHRONOMETER BUTTONS*****/
-
 .chronometerButtons {
     display: flex;
     justify-content: center;
@@ -111,11 +96,8 @@ img {
 }
 
 /********HOVER BUTTONS******/
-
-
 button:hover {
     display: flex;
-    
     width: 110px;
     height: auto;
     padding: 5px;
@@ -127,29 +109,52 @@ button:hover {
     box-shadow: 2px 2px 3px 0px #F0DB4F;
 }
 
-/*****STORE TIMES ¿?*******/
-
-#storeTimes {
-
+/*****RECORDED TIMES*******/
+.recordedTimes {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
 }
 
+.recorded_Times__title {
+    display: flex;
+    position: absolute;
+    margin-right: 280px;
+    font-size: large;  
+    padding: 10px 0px 10px 0px;
+    color: #323330;
+}
 
+.timesList {
+    display: flex;
+    flex-direction: column;
+    font-size: large;      
+    margin-top: 10px;
+    color: #323330;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #323330;
+    color:  #F0DB4F; 
+    height: 35px;
+}
 
 /*******RESPONSIVE*****************/
-
 @media only screen and (max-width: 500px) {
-    body {
-      background-color: lightblue;
-      
-    }
-
+    
     .header {
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 9px;  
         padding: 5px;
-
         color: #323330;
     }
     
@@ -177,7 +182,19 @@ button:hover {
        align-items: center;
     }
 
+    .recordedTimes {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .recorded_Times__title {
+        display: flex;
+        position: relative;
+        margin-right: 0px;
+    }    
 }
+
 
 
 
