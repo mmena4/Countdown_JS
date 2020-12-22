@@ -2,6 +2,8 @@
 
 This is a responsive chronometer made in JavaScript with time 'rec' feature.
 
+Live preview here: [https://mmena4.github.io/JavaScript-Chronometer/](https://mmena4.github.io/JavaScript-Chronometer/)
+
 ## Getting Started 🚀
 
 This is a very easy and clean project for time measure and control.
