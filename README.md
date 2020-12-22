@@ -1,4 +1,4 @@
-# JavaScript Chronometer
+# JavaScript Chronometer1
 
 This is a responsive chronometer made in JavaScript with time 'rec' feature.
 
