@@ -37,7 +37,7 @@ Happy to grow the 'JavaScript Chronometer' project! Want to contribute? please r
 
 ## Authors ✒️
 
-* **Moisés Mena** - *Whole project* - [PurpleBooth](https://github.com/mmena4)
+* **Moisés Mena** - *Whole project* - [GitHub Moisés](https://github.com/mmena4)
 
 
 ## License 📄
