@@ -4,7 +4,7 @@ This is a responsive chronometer made in JavaScript with time 'rec' feature.
 
 Design: our beloved JavaScript logo corporate typography, colors and imitating the logo squares in the desing, hope you like it!!
 
-Live preview here: [https://moisesmena.github.io/JavaScript-Chronometer/](https://mmena4.github.io/JavaScript-Chronometer/)
+Live preview here: [https://moisesmena.github.io/JavaScript-Chronometer/](https://moisesmena.github.io/JavaScript-Chronometer/)
 
 ## Getting Started 🚀
 
